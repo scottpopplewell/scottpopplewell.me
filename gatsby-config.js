@@ -13,6 +13,7 @@ module.exports = {
         name: `cookbook`,
         path: `${__dirname}/cookbook`,
       }
-    }
+    },
+    "gatsby-plugin-mdx",
   ],
 };
