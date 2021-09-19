@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.scottpopplewell.me",
-    title: "Scott's Gatsby Site",
+    title: "Scott's Site",
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: `cookbook`,
-        path: `${__dirname}/cookbook`,
+        name: `content`,
+        path: `${__dirname}/content`
       }
     },
     "gatsby-plugin-mdx",

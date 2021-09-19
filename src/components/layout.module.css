@@ -1,3 +1,8 @@
+
+body {
+  font-family: 'Lato';
+}
+
 .site-title {
   font-size: 3rem;
   color: gray;
@@ -6,22 +11,26 @@
 }
 
 .container {
-margin: auto;
-max-width: 500px;
-font-family: sans-serif;
+  margin: auto;
+  max-width: 500px;
 }
 
 .heading {
-    color: rebeccapurple;
-  }
-  .nav-links {
-    display: flex;
-    list-style: none;
-    padding-left: 0;
-  }
-  .nav-link-item {
-    padding-right: 2rem;
-  }
-  .nav-link-text {
-    color: black;
-  }
+  color: rebeccapurple;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.nav-link-item {
+  padding: 0 1rem;
+}
+
+.nav-link-text {
+  color: black;
+}
