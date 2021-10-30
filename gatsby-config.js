@@ -120,8 +120,7 @@ module.exports = {
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `static/favicon.ico`, // This path is relative to the root of the site.
+        display: `minimal-ui`
       },
     },
     `gatsby-plugin-react-helmet`,
