@@ -5,9 +5,9 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const BlogIndex = ({ data, location }) => {
+const Contentful = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
+  const posts = data.allContentfulBlogPost.edges
 
   if (posts.length === 0) {
     return (
@@ -29,10 +29,10 @@ const BlogIndex = ({ data, location }) => {
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
+          const title = post.node.title
 
           return (
-            <li key={post.fields.slug}>
+            <li key={post.node.id}>
               <article
                 className="post-list-item"
                 itemScope
@@ -40,16 +40,16 @@ const BlogIndex = ({ data, location }) => {
               >
                 <header>
                   <h2>
-                    <Link to={post.fields.slug} itemProp="url">
+                    <Link to={"/posts/" + post.node.id} itemProp="url">
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
+                  <small>{post.node.date}</small>
                 </header>
                 <section>
                   <p
                     dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
+                      __html: post.node.description
                     }}
                     itemProp="description"
                   />
@@ -63,7 +63,7 @@ const BlogIndex = ({ data, location }) => {
   )
 }
 
-export default BlogIndex
+export default Contentful
 
 export const pageQuery = graphql`
   query {
@@ -72,16 +72,12 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      nodes {
-        excerpt
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          title
+    allContentfulBlogPost {
+      edges {
+        node {
+          id
           description
+          title
         }
       }
     }
