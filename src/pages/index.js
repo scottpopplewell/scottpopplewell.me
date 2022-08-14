@@ -44,7 +44,7 @@ const Contentful = ({ data, location }) => {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.node.date}</small>
+                  <small>{post.node.createdAt}</small>
                 </header>
                 <section>
                   <p
@@ -72,12 +72,13 @@ export const pageQuery = graphql`
         title
       }
     }
-    allContentfulBlogPost {
+    allContentfulBlogPost(sort: {order: DESC, fields: createdAt}) {
       edges {
         node {
           id
           description
           title
+          createdAt(formatString: "MMMM DD, YYYY")
         }
       }
     }
