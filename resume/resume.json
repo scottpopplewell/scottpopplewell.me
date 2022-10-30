@@ -1,0 +1,203 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Scott Popplewell",
+    "label": "Software Engineer at Capital One",
+    "image": "",
+    "email": "inquiries@scottpopplewell.me",
+    "phone": "",
+    "url": "https://scottpopplewell.me",
+    "website": "https://scottpopplewell.me",
+    "summary": "",
+    "location": {
+      "region": "Texas",
+      "city": "Plano",
+      "countryCode": "US",
+      "address": "United States"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "scott-popplewell",
+        "url": "https://www.linkedin.com/in/scott-popplewell/"
+      },
+      {
+        "network": "Github",
+        "username": "scottpopplewell",
+        "url": "https://github.com/scottpopplewell"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Capital One",
+      "position": "Software Engineering Manager",
+      "startDate": "2019-07",
+      "highlights": [],
+      "summary": "In 2022, I returned to lead our Capital One Digital Auto Retailing Platform, Showroom! I started at C1 as an engineer on this team. Very excited to come back and work with the team again!\n\nIn January of 2021, I transitioned to leading the Consumer Service and Protection Products team for Capital One Auto Finance. Our team creates dealer facing onboarding experiences to setup their service and protection plans and the consumer facing experience to share these products with consumers they shop for their car.",
+      "url": "https://www.linkedin.com/company/capital-one/",
+      "location": "Plano, Texas, United States"
+    },
+    {
+      "company": "Capital One",
+      "position": "Principal Software Engineer",
+      "startDate": "June 2020",
+      "endDate": "July 2022",
+      "highlights": [
+      "Designed and implemented Showroom's user authentication and profile systems",
+      "Mentored and developed junior team members"
+      ],
+      "summary": "Senior engineer helping deliver Capital One's Showroom product for automotive dealers. Showroom is a white label solution that allows dealers to showcase their inventory to consumers. Capital One builds the entire solution from deployment to integration on dealer's websites.",
+      "url": "https://www.linkedin.com/company/capital-one/",
+      "location": "Plano, Texas, United States"
+    },
+    {
+      "company": "Credera",
+      "position": "Senior Consultant",
+      "startDate": "October 2017",
+      "endDate": "June 2020",
+      "highlights": [],
+      "summary": "Credera is a true professional, full-service business and technology consulting firm. We work with Fortune 1,000 companies across the country, medium-sized businesses, government organizations and clients across a broad range of industries.\n\nCredera’s specialties include Management Consulting, eCommerce, Mobile Solutions, Custom Development, Microsoft Solutions, Business Intelligence Solutions, and User Experience.\n\nCredera’s Core Values:\n• Integrity: Fidelity to moral principles\n• Excellence: Great merit or efficiency. Excel: to be superior; to surpass\n• Professionalism: Demonstrating a courteous, conscientious, and businesslike manner in the workplace\n• Humility: Modesty in self-estimation; humbleness",
+      "url": "https://www.linkedin.com/company/credera/",
+      "location": "Addison, Texas"
+    },
+    {
+      "company": "Credera",
+      "position": "Consultant",
+      "startDate": "August 2015",
+      "endDate": "September 2017",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/credera/",
+      "location": "Addison, Texas"
+    },
+    {
+      "company": "AT&T",
+      "position": "Software Developer Intern",
+      "startDate": "June 2014",
+      "endDate": "August 2014",
+      "highlights": [
+        "Researched and integrated static code analysis tools for AT&T's testing pipeline",
+        "Partnered with a team of 6 other interns to develop a desk reservation app for the Dallas office's open floor plan"
+      ],
+      "summary": "",
+      "url": "https://www.linkedin.com/company/att/",
+      "location": "Dallas, Texas"
+    },
+    {
+      "company": "Virginia Diodes, Inc.",
+      "position": "Systems Engineering Intern",
+      "startDate": "September 2013",
+      "endDate": "April 2014",
+      "highlights": [],
+      "summary": "Reviewed, updated and maintained the production work-flow database.",
+      "url": "https://www.linkedin.com/company/virginia-diodes-inc./"
+    },
+    {
+      "company": "University of Virginia Center for Diabetes Technology",
+      "position": "Android Programming Intern",
+      "startDate": "January 2013",
+      "endDate": "May 2013",
+      "highlights": [],
+      "summary": "Developed and implemented an Android UI for a new phase of the artificial pancreas program that monitors patient glucose levels.",
+      "url": "https://med.virginia.edu/diabetes-technology/"
+    },
+    {
+      "company": "Refraction Technology, Inc.",
+      "position": "Systems Engineering Intern",
+      "startDate": "May 2012",
+      "endDate": "August 2012",
+      "highlights": [],
+      "summary": "Drafted a manual for operating and maintaining a Canandian bridge seismic monitoring system",
+      "url": "https://reftek.com/port-mann-bridge-motion"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of Virginia",
+      "area": "",
+      "endDate": "May 2015",
+      "startDate": "August 2011",
+      "studyType": "Systems Engineering",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Salesforce Certified Administrator (SCA)",
+      "issuer": "Salesforce"
+    },
+    {
+      "name": "Salesforce Certified Service Cloud Consultant",
+      "issuer": "Salesforce"
+    },
+    {
+      "name": "Salesforce Certified Marketing Cloud Email Specialist",
+      "issuer": "Salesforce"
+    },
+    {
+      "name": "Salesforce Certified Platform App Builder",
+      "issuer": "Salesforce"
+    },
+    {
+      "name": "Salesforce Certified Platform Developer I",
+      "issuer": "Salesforce"
+    },
+    {
+      "name": "Salesforce Certified Data Architecture & Management Designer",
+      "issuer": "Salesforce"
+    },
+    {
+      "name": "Salesforce Certified Sharing and Visibility Designer",
+      "issuer": "Salesforce"
+    },
+    {
+      "name": "Salesforce Certified Application Architect",
+      "issuer": "Salesforce"
+    },
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services (AWS)",
+      "endDate": "2023-09-30",
+      "startDate": "2020-09-30",
+      "url": "https://www.youracclaim.com/badges/12da95d6-5b57-4690-92d7-cb94e2f2622b?source=linked_in_profile"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "",
+      "keywords": [
+        "Javascript",
+        "React",
+        "Lit",
+        "GatsbyJS"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "",
+      "keywords": [
+        "Java",
+        "Spring",
+        "AWS Lambda"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

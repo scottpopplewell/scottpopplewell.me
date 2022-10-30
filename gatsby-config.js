@@ -3,12 +3,13 @@ module.exports = {
     title: `Scott's Blog`,
     author: {
       name: `Scott Popplewell`,
-      summary: `who lives and works in Plano trying to build useful things.`,
+      summary: `from Plano building useful things.`,
     },
     description: `A blog shamelessly built using Gatsby's Starter Blog`,
     siteUrl: `https://scottpopplewell.me/`,
     social: {
       twitter: `SDPopplewell`,
+      github: `scottpopplewell`
     },
   },
   plugins: [

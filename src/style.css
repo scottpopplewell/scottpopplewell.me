@@ -167,10 +167,6 @@ p {
   padding: var(--spacing-0);
 }
 
-li {
-  margin-left: 15px;
-}
-
 ul,
 ol {
   margin-left: var(--spacing-0);
@@ -250,10 +246,6 @@ a:focus {
   padding: var(--spacing-10) var(--spacing-5);
 }
 
-.global-wrapper[data-is-root-path="true"] .bio {
-  margin-bottom: var(--spacing-20);
-}
-
 .global-header {
   margin-bottom: var(--spacing-12);
 }
@@ -291,19 +283,30 @@ a:focus {
 }
 
 .bio {
-  display: flex;
-  margin-bottom: var(--spacing-16);
-}
-
-.bio p {
-  margin-bottom: var(--spacing-0);
-}
+  margin: auto;
+  width: 25%;
+} 
 
 .bio-avatar {
   margin-right: var(--spacing-4);
   margin-bottom: var(--spacing-0);
-  min-width: 50px;
+  min-width: 100px;
   border-radius: 100%;
+}
+
+.bio-resume {
+  margin-left: 17px;
+}
+
+.bio-social-row {
+  display: flex;
+  margin-left: 27px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.bio-social {
+  margin-right: var(--spacing-1);
 }
 
 .blog-post header h1 {
