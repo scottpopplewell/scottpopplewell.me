@@ -32,44 +32,24 @@ const Bio = () => {
   const social = data.site.siteMetadata?.social
 
   return (
-    <div className="bio">
-      <StaticImage
-        className="bio-avatar"
-        layout="fixed"
-        formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.jpg"
-        width={100}
-        height={100}
-        quality={95}
-        alt="Profile picture"
-      />
-        <div className="bio-social-row">
-          <a href={`https://github.com/${social?.github}`}>
+    <div className="table">
+        <div className="bio-row">
             <StaticImage
-              className="bio-social"
+              className="bio-avatar"
               layout="fixed"
               formats={["auto", "webp", "avif"]}
-              src="../images/github.png"
-              width={20}
-              height={20}
+              src="../images/profile-pic.jpg"
+              width={100}
+              height={100}
               quality={95}
-              alt="Github"
-            /> 
-          </a>
-          <a href={`https://twitter.com/${social?.twitter}`}>
-            <StaticImage
-              className="bio-social"
-              layout="fixed"
-              formats={["auto", "webp", "avif"]}
-              src="../images/twitter.png"
-              width={20}
-              height={20}
-              quality={95}
-              alt="Twitter"
-            /> 
-          </a>
+              alt="Profile picture"
+            />
+            <div className="bio-content">
+              Welcome, I'm Scott!<br/>
+              These are just some musings<br/>
+              See my <a href={`./resume.html`}>resume</a>, <a href={`https://twitter.com/${social?.twitter}`}>Twitter</a> or <a href={`https://github.com/${social?.github}`}>github</a>.
+              </div>
         </div>
-        <a className="bio-resume" href={`./resume.html`}>Resume</a>
     </div>
   )
 }

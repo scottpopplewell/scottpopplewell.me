@@ -285,28 +285,36 @@ a:focus {
 .bio {
   margin: auto;
   width: 25%;
-} 
+}
 
 .bio-avatar {
   margin-right: var(--spacing-4);
   margin-bottom: var(--spacing-0);
   min-width: 100px;
   border-radius: 100%;
+  display: table-cell;
 }
 
-.bio-resume {
-  margin-left: 17px;
+.bio-row {
+  display: table-row
 }
 
-.bio-social-row {
-  display: flex;
-  margin-left: 27px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+.bio-content {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 15px;
+}
+.center-wrapper {
+  text-align: center;
 }
 
-.bio-social {
-  margin-right: var(--spacing-1);
+.table {
+  width: 90%;
+  display: table;
+}
+
+.bio-title {
+  font-weight: 500
 }
 
 .blog-post header h1 {
