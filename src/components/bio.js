@@ -47,7 +47,7 @@ const Bio = () => {
             <div className="bio-content">
               Welcome, I'm Scott!<br/>
               These are just some musings<br/>
-              See my <a href={`./resume.html`}>resume</a>, <a href={`https://twitter.com/${social?.twitter}`}>Twitter</a> or <a href={`https://github.com/${social?.github}`}>github</a>.
+              See my <a href={`./resume.html`}>resume</a>, <a rel="me" href="https://fosstodon.org/@Sdpopp">Mastodon</a> or <a href={`https://github.com/${social?.github}`}>github</a>.
               </div>
         </div>
     </div>
