@@ -238,6 +238,12 @@ a:focus {
   text-decoration: none;
 }
 
+/* img */
+
+img {
+  max-width: 100%;
+}
+
 /* Custom classes */
 
 .global-wrapper {
@@ -346,3 +352,4 @@ a:focus {
     list-style-position: inside;
   }
 }
+
