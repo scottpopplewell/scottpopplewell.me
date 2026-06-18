@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Scott Popplewell",
-    "label": "Software Engineer at Capital One",
+    "label": "Senior Software Engineering Manager at Invitation Homes",
     "image": "",
     "email": "inquiries@scottpopplewell.me",
     "phone": "",
@@ -30,9 +30,37 @@
   },
   "work": [
     {
+      "company": "Invitation Homes",
+      "position": "Senior Software Engineering Manager",
+      "startDate": "January 2025",
+      "highlights": [
+        "Expanded scope to lead three teams comprising the Resident Acquisition domain: Search, Leasing Application, and Associate Leasing experiences",
+        "Directed end-to-end overhaul of fee management across Invitation Homes' national single-family rental portfolio",
+        "Launched Dynamic Lease Terms, introducing flexible pricing options to improve resident conversion and occupancy",
+        "Scaled API platform tooling across the engineering org: event schema documentation, auto-generated types and client SDKs, and a standardized Bruno-based workflow replacing fragmented Postman practices"
+      ],
+      "url": "https://www.linkedin.com/company/invitation-homes/",
+      "location": "Plano, Texas, United States"
+    },
+    {
+      "company": "Invitation Homes",
+      "position": "Software Engineering Manager",
+      "startDate": "August 2023",
+      "endDate": "January 2025",
+      "highlights": [
+        "Built and led a team of engineers partnering with Product to deliver resident-facing features on the leasing platform",
+        "Shipped automatic income verification, reducing friction in the leasing application process for prospective residents",
+        "Drove efficiency improvements that measurably cut time-to-move-in for customers and operational teams",
+        "Founded Invitation Homes' API documentation ecosystem — a Contracts Catalog covering synchronous APIs and event schemas, establishing a shared standard for how teams document and consume APIs"
+      ],
+      "url": "https://www.linkedin.com/company/invitation-homes/",
+      "location": "Plano, Texas, United States"
+    },
+    {
       "company": "Capital One",
       "position": "Software Engineering Manager",
       "startDate": "January 2021",
+      "endDate": "August 2023",
       "highlights": [
         "Mentoring and leading 8 engineers in their careers through individual one-on-one coaching in an inclusive team culture",
         "Strategically scaling a B2B2C white label product at C1 by partnering with Product and Design to drive roadmap priorities",
@@ -48,8 +76,8 @@
       "startDate": "June 2020",
       "endDate": "January 2021",
       "highlights": [
-      "Designed and implemented Showroom's user authentication and profile systems",
-      "Mentored and developed junior team members"
+        "Designed and implemented Showroom's user authentication and profile systems",
+        "Mentored and developed junior team members"
       ],
       "summary": "Senior engineer helping deliver Capital One's Showroom product for automotive dealers. Showroom is a white label solution that allows dealers to showcase their inventory to consumers. Capital One builds the entire solution from deployment to integration on dealer's websites.",
       "url": "https://www.linkedin.com/company/capital-one/",
